@@ -1,0 +1,21 @@
+{
+  "name": "projecto-final-en-proceso-a.barrero-33025",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1 ",
+    "scss": "node-sass --watch scss -o css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Agussnb/Repositorio-1-proyecto-final.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Agussnb/Repositorio-1-proyecto-final/issues"
+  },
+  "homepage": "https://github.com/Agussnb/Repositorio-1-proyecto-final#readme"
+}
