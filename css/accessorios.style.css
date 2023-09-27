@@ -37,9 +37,26 @@ nav{
 }
 .card{
   width: 30rem;
-  height: 25rem;
+  height: 28rem;
 }
-
+.card:hover {
+  border-radius: 2rem;
+  box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.1); /* Cambia los valores según tus preferencias */
+  transition: border 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Agrega una transición suave */
+}
+.card-title{
+  text-align: center;
+}
+.btn-dark,a{
+  text-decoration: none;
+  color: #000000;
+}
+.btn-dark{
+  background-color: rgba(224, 227, 14, 0.637);
+}
+.btn-dark:hover{
+  background-color:  rgba(201, 204, 26, 0.637);
+}
 
 footer {
     background-color: #333;

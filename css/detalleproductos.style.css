@@ -147,11 +147,19 @@ input[type="radio"] {
 }
 
 .arrow {
-    font-size: 30px;
-    cursor: pointer;
-    margin: 0 10px;
+  font-size: 35px;
+  display: inline-block;
+  border-radius: 100%; 
+  background-color: transparent; 
+  cursor: pointer;
+  text-align: center; 
+  line-height: 30px; 
+  transition: background-color 0.3s ease-in-out;
 }
 
+.arrow:active {
+  color: rgba(201, 204, 26, 0.637); 
+}
 #slide1:checked ~ .slider {
     transform: translateX(0%);
 }

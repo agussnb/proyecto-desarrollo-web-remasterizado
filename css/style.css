@@ -6,17 +6,27 @@ h1{
   color: #000000;
   text-align: center;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-style: oblique;
+}
+h2{
+  color: #fff;
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-style: oblique;
+  font-weight: 300;
 }
 h3{
   color: #000000;
   text-align: center;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-style: oblique;
 }
 p{
   color: #fff;
   background-color: #a6a81177;;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: large;
+  font-style: oblique;
 }
 .h5Carrousel,.parrafoCarrousel{
   color: rgb(255, 254, 249);
@@ -30,6 +40,8 @@ p{
 body{
   background-color: rgba(201, 204, 26, 0.637);
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  position: relative;
+  padding-bottom: 5rem;
 }
 nav{
   background-color: #333;
